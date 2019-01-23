@@ -41,7 +41,7 @@ def organize_schools(schools)
   school_list = {} 
   schools.each do |school, place|
     if !school_list[place[:location]]
-      school_list[]
+      school_list[place[:location]] = [school]
 end
 
           
