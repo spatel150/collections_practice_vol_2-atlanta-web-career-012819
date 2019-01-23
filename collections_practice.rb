@@ -39,7 +39,7 @@ end
 
 def organize_schools(schools)
   school_list = {} 
-  
+  schools.each do |
 end
 
           
