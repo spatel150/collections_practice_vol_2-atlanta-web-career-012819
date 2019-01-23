@@ -39,8 +39,8 @@ end
 
 def organize_schools(schools)
   school_list = {} 
-  schools.each do |school, location|
-    if 
+  schools.each do |school, place|
+    if !school_list[place[:location]]
 end
 
           
