@@ -42,6 +42,8 @@ def organize_schools(schools)
   schools.each do |school, place|
     if !school_list[place[:location]]
       school_list[place[:location]] = [school]
+    else 
+      
 end
 
           
