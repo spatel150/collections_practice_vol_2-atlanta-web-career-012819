@@ -39,7 +39,8 @@ end
 
 def organize_schools(schools)
   school_list = {} 
-  schools.each do |
+  schools.each do |school, location|
+    
 end
 
           
