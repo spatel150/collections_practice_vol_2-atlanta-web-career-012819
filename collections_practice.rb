@@ -43,7 +43,7 @@ def organize_schools(schools)
     if !school_list[place[:location]]
       school_list[place[:location]] = [school]
     else 
-      school_list = 
+      school_list[place[:location]] << [school]
 end
 
           
